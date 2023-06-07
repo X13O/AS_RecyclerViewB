@@ -1,7 +1,8 @@
 package com.fadlizainuddin.recyclerviewb;
 
+//MahasiswaModel berguna untuk menyimpan 1 buah record
 public class MahasiswaModel {
-    private String NIM, Nama, jenisKelamin, JP;
+    private String NIM, Nama, JenisKelamin, JP;
 
     public MahasiswaModel(){
 
@@ -24,11 +25,11 @@ public class MahasiswaModel {
     }
 
     public String getJenisKelamin() {
-        return jenisKelamin;
+        return JenisKelamin;
     }
 
     public void setJenisKelamin(String jenisKelamin) {
-        this.jenisKelamin = jenisKelamin;
+        this.JenisKelamin = jenisKelamin;
     }
 
     public String getJP() {
