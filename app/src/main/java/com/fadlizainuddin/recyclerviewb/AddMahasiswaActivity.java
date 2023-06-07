@@ -56,6 +56,7 @@ public class AddMahasiswaActivity extends AppCompatActivity
                     jenisKelamin = URLEncoder.encode(jenisKelamin, "utf-8");
                     nama = URLEncoder.encode(nama, "utf-8");
                     nim = URLEncoder.encode(nim, "utf-8");
+                    jp = URLEncoder.encode(jp, "utf-8");
                     statusNikah = URLEncoder.encode(statusNikah, "utf-8");
                     tanggalLahir = URLEncoder.encode(tanggalLahir, "utf-8");
                     tempatLahir = URLEncoder.encode(tempatLahir, "utf-8");

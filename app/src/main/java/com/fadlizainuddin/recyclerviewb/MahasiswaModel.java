@@ -2,6 +2,7 @@ package com.fadlizainuddin.recyclerviewb;
 
 //MahasiswaModel berguna untuk menyimpan 1 buah record
 public class MahasiswaModel {
+//    Pada baris 6, harus sesuai dengan nama tabel yang ada pada link https://stmikpontianak.net/011100862/tampilMahasiswa.php
     private String NIM, Nama, JenisKelamin, JP;
 
     public MahasiswaModel(){
